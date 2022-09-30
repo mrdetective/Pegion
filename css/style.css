@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=DynaPuff&family=Monoton&family=Roboto:wght@300&family=Splash&family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=DynaPuff&family=Finger+Paint&family=Monoton&family=Roboto:wght@300&family=Splash&family=Ubuntu:wght@300&display=swap");
 @keyframes flicker {
     0%,
     18%,
@@ -40,13 +40,13 @@ body {
 .box1 {
     /* border: solid 1px green; */
     color: black;
-    height: 500px;
-    width: 500px;
+    height: 655px;
+    width: 600px;
     margin: auto;
     margin-top: 70px;
     border-radius: 10px;
     background-color: #072041;
-    box-shadow: 0px 4px 8px 0 rgb(17 141 232), 0px 11px 20px 0px rgb(17 141 232);
+    /* box-shadow: 0px 4px 8px 0 rgb(17 141 232), 0px 11px 20px 0px rgb(17 141 232); */
     transition: box-shadow 0.5s ease-in-out;
     display: flex;
     flex-direction: column;
@@ -55,15 +55,51 @@ body {
 }
 
 .box1 img {
+    height: 30px;
+    width: 30px;
+    margin-top: 67px;
+    margin-bottom: -25px;
+}
+
+.box2 .para1 img {
     height: 100px;
     width: 100px;
+    margin-left: 30px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.box2 .para2 {
+    font-family: "DynaPuff", cursive;
+    color: rgb(22 171 255);
+    margin: auto;
+}
+
+.box2 {
+    border: dashed #0486b1 3px;
+    padding: 100px 150px 100px 150px;
+    margin-bottom: -40px;
+    margin-top: 22px;
+    border-radius: 36px;
+}
+
+.box3 {
+    margin-top: 81px;
+    margin-bottom: -118px;
+    font-size: x-large;
+    font-family: "Finger Paint", cursive;
+    color: white;
+}
+
+.box3 img {
+    size: 2px;
 }
 
 a {
     position: relative;
     background: rgba(0, 0, 0, 0.5);
     text-decoration: none;
-    margin-top: 10px;
+    margin-top: 150px;
     transition: 1s;
     border-radius: 4px;
     overflow: hidden;
