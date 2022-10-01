@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=DynaPuff&family=Finger+Paint&family=Monoton&family=Roboto:wght@300&family=Splash&family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Baloo+Bhai+2&family=DynaPuff&family=Finger+Paint&family=Monoton&family=Roboto:wght@300&family=Silkscreen:wght@700&family=Splash&display=swap");
 @keyframes flicker {
     0%,
     18%,
@@ -17,24 +17,25 @@
 }
 
 body {
-    background-color: rgb(2, 2, 39);
+    background-image: url("../images/back.jpg");
+    background-size: 100vw;
 }
 
 .navbar {
-    height: 40px;
+    height: 58px;
     width: 100vw;
-    background-color: #0c143f;
+    background: transparent;
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "DynaPuff", cursive;
-    font-size: x-large;
+    font-family: "Silkscreen", cursive;
+    font-size: 39px;
     color: #fff;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
-    animation: flicker 1.5s infinite alternate;
+    /* opacity: 0.6; */
+    font-weight: bolder;
 }
 
 .box1 {
@@ -44,8 +45,8 @@ body {
     width: 600px;
     margin: auto;
     margin-top: 70px;
-    border-radius: 10px;
-    background-color: #072041;
+    border-radius: 35px;
+    background-color: transparent;
     /* box-shadow: 0px 4px 8px 0 rgb(17 141 232), 0px 11px 20px 0px rgb(17 141 232); */
     transition: box-shadow 0.5s ease-in-out;
     display: flex;
@@ -64,20 +65,20 @@ body {
 .box2 .para1 img {
     height: 100px;
     width: 100px;
-    margin-left: 30px;
+    margin-left: 62px;
     margin-top: 12px;
     margin-bottom: 12px;
 }
 
 .box2 .para2 {
-    font-family: "DynaPuff", cursive;
-    color: rgb(22 171 255);
+    font-family: "Silkscreen", cursive;
+    color: white;
     margin: auto;
 }
 
 .box2 {
-    border: dashed #0486b1 3px;
-    padding: 100px 150px 100px 150px;
+    border: dashed white 5px;
+    padding: 132px 150px 164px 150px;
     margin-bottom: -40px;
     margin-top: 22px;
     border-radius: 36px;
@@ -100,6 +101,7 @@ a {
     background: rgba(0, 0, 0, 0.5);
     text-decoration: none;
     margin-top: 150px;
+    margin-bottom: -85px;
     transition: 1s;
     border-radius: 4px;
     overflow: hidden;
