@@ -24,3 +24,10 @@ dropzone.addEventListener("drop", (e) => {
 button.addEventListener("click", () => {
     fileinput.click();
 });
+
+const uploadFile = () => {
+    const file = fileinput.files[0];
+    const formdata = new FormData();
+    formdata.append(file);
+    
+}
